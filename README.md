@@ -18,3 +18,22 @@ SQL is the language used for interacting with relational databases. It consists 
 -DML (Data Manipulation Language): Used to query and modify data.<br>
 -DCL (Data Control Language): Used to control access to data.<br>
 -TCL (Transaction Control Language): Used to manage changes made by DML commands.<br>
+## SQL Operations
+
+### 1. Data Query Operations
+These operations retrieve data from a database.
+
+- **SELECT**: Retrieves data from one or more tables.
+  ```sql
+  SELECT column1, column2 FROM table_name;
+<br>
+  2. Data Manipulation Operations (DML)
+These operations are used to modify data within a database.
+
+INSERT: Adds new data into a table.
+```sql
+INSERT INTO table_name (column1, column2) VALUES (value1, value2);
+UPDATE: Updates existing data in a table.
+UPDATE table_name SET column1 = value1, column2 = value2 WHERE condition;
+DELETE: Deletes data from a table.
+DELETE FROM table_name WHERE condition;

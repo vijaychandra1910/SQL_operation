@@ -31,9 +31,10 @@ These operations retrieve data from a database.
 These operations are used to modify data within a database.
 
 INSERT: Adds new data into a table.
-```sql
 INSERT INTO table_name (column1, column2) VALUES (value1, value2);
+<br>
 UPDATE: Updates existing data in a table.
-UPDATE table_name SET column1 = value1, column2 = value2 WHERE condition;
-DELETE: Deletes data from a table.
-DELETE FROM table_name WHERE condition;
+<br>
+UPDATE table_name SET column1 = value1, column2 = value2 WHERE condition;<br>
+DELETE: Deletes data from a table.<br>
+DELETE FROM table_name WHERE condition;<br>
